@@ -9,7 +9,7 @@ Now once you have pass your co-ordinates the program will detect if that part of
 ## WHAT IF FOLDER CONTAINS SOME CRASH IMAGES?:
 Remember this program needs to open the file/image first in order to detect or delete to those crash images, and since we know that crash images could not be open, this program will automatically move those crash images into another folder.
 All you need is to create a folder for crash image and pass the path of the folder to the code
-## HOW YOU CAN CHANGE RBG VALUES FOR THIS PROGRAM:
+## HOW YOU CAN CHANGE RBG VALUES OF YOUR CHOICE:
 Lets say you don't want to delete RBG: 250,250,250 but want to delete some other RBG values of images.
 Simply just go to the line no 29 and change the RBG values in "if" condition.
 ## Installation:
