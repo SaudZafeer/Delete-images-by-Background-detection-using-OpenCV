@@ -13,7 +13,8 @@ All you need is to create a folder for crash image and pass the path of the fold
 Lets say you don't want to delete RBG: 250,250,250 but want to delete some other RBG values of images.
 Simply just go to the line no 29 and change the RBG values in "if" condition.
 ## Installation:
-1-Open visual studio code or any code editor select a folder where you want to clone the repo 2-Clone the Repo
+1-Open visual studio code or any code editor select a folder where you want to clone the repo.
+2-Clone the Repo
 ```sh
 https://github.com/SaudZafeer/Delete-images-by-Background-detection-using-Artificial-Intelligence-.git
 ```
