@@ -4,8 +4,8 @@ Suppose you have a folder that contains thousands of images and you only want de
 All it take few minutes to complete this task😄
 ## HOW DOES IT WORK🤔:
 By reading the python code you will see that first we need to import required libraries that are responsible to run the code.
-1)Then you will see i created a function name "get_color(x,y)", The purpose of this function is to retrun the RBG values of "x" and "y" co-ordinates. Remember "x" and "y" are the co-ordinates of the images that are stored in your folder.
-2)Do make sure to provide 'x' and 'y' co-ordinates of such location where your background is clear to detect.
+#### 1)Then you will see i created a function name "get_color(x,y)", The purpose of this function is to retrun the RBG values of "x" and "y" co-ordinates. Remember "x" and "y" are the co-ordinates of the images that are stored in your folder.
+#### 2)Do make sure to provide 'x' and 'y' co-ordinates of such location where your background is clear to detect.
 Now once you have pass your co-ordinates the program will detect if that part of images contains #FAFAFA Hex Color or RGB: 250, 250, 250 or ALABASTER, GREY background. If yes the program will delete those files/image and keep only those files/image which are having different RBG values.
 ## WHAT IF FOLDER CONTAINS SOME CRASH IMAGES?😱:
 Remember this program needs to open the file/image first in order to detect or delete to those crash images, and since we know that crash images could not be open, this program will automatically move those crash images into another folder.
