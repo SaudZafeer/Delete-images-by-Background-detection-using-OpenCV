@@ -19,10 +19,10 @@ def get_color(x, y):
 if __name__=="__main__":
     
     # reading the image
-    folder = r"D:\Saud\Shaham_Bot\Images"
+    folder = r"D:\Saud\Folder\Images"
     #creating loop to iterate through photos
     for filename in os.listdir(folder):
-        img = cv2.imread(r"D:\Saud\Shaham_Bot\Images\%s"%(filename), 1)
+        img = cv2.imread(r"D:\Saud\Folder\Images\%s"%(filename), 1)
         try:
             r,g,b = get_color(x = 32,y = 18)
             if r == 250 and g == 250 and b == 250:
@@ -31,5 +31,5 @@ if __name__=="__main__":
             else:
                 print("Keeping the file")
         except:
-            shutil.move(filename, r"D:\Saud\Shaham_Bot\Crash_images")
+            shutil.move(filename, r"D:\Saud\Folder\Crash_images")
     cv2.destroyAllWindows()
