@@ -1,4 +1,4 @@
-# Delete-images-by-Background-detection-using-AI💻:
+# Delete-images-by-Background-detection-using-OpenCV💻:
 ## ABOUT🤔:
 Suppose you have a folder that contains thousands of images and you only want delete those images which are having #FAFAFA Hex Color or RGB: 250, 250, 250 or ALABASTER, GREY background, so obviously you'll never waste your valuable time to delete those images one by one by reading their properties, Right?!. let this AI based program handle this task.
 All it take few minutes to complete this task😄
